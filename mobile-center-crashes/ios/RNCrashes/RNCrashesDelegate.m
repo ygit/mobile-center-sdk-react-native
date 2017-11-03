@@ -1,6 +1,8 @@
 #import "RNCrashesDelegate.h"
 #import "RNCrashesUtils.h"
 
+@import MobileCenterCrashes;
+
 static NSString *ON_BEFORE_SENDING_EVENT = @"MobileCenterErrorReportOnBeforeSending";
 static NSString *ON_SENDING_FAILED_EVENT = @"MobileCenterErrorReportOnSendingFailed";
 static NSString *ON_SENDING_SUCCEEDED_EVENT = @"MobileCenterErrorReportOnSendingSucceeded";
